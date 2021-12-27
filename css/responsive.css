@@ -331,6 +331,9 @@ div#table_content .qty {
   height: 100%;
   overflow-y: scroll;
 }
+.tooltip.tooltip-min.bs-tooltip-top.show {
+  left: 0;
+}
 #leftsidebarfilter .modal-dialog {
   position: fixed;
   left: 0;
