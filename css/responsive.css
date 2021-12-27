@@ -321,7 +321,6 @@ ul.sidebar {
   margin-top: 1rem;
 }
 div#table_content .qty {
-  
   width: 109px;
   
 }
@@ -523,7 +522,11 @@ section#product_tab form {
   text-align: center;
  
 }
+li.nav-item {
+  
+  padding-left: 0;
 
+}
 }
 @media (min-width: 1199px) {
 /* #sub_body{
