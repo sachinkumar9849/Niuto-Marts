@@ -175,7 +175,14 @@ div#table_content .qty {
 
 
 /* DEFAULT CSS START  */
-
+textarea#comment {
+    border: 1px solid #f0e9ff;
+    border-radius: 5px;
+    /* height: 48px; */
+    /* padding-left: 18px; */
+    /* font-size: 13px; */
+    background: transparent;
+}
 .pagination {
 	display: inline-block;
 }
@@ -2565,7 +2572,7 @@ section#blog-page .tag-blog {
 section#blog-page .tag-blog ul.list {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: flex-start;
 }
 section#blog-page .tag-blog li {
 	background: white;

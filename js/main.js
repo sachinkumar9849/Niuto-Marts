@@ -49,9 +49,9 @@ $(".slick_slider").slick({
 
   responsive: [
     {
-      breakpoint: 1400,
+      breakpoint: 1399,
       settings: {
-        slidesToShow: 5,
+        slidesToShow: 4,
         slidesToScroll: 1,
       },
     },
@@ -88,9 +88,9 @@ $(".category_list").slick({
   slidesToScroll: 1,
   responsive: [
     {
-      breakpoint: 1400,
+      breakpoint: 1399,
       settings: {
-        slidesToShow: 2,
+        slidesToShow: 4,
         slidesToScroll: 1,
       },
     },
@@ -127,9 +127,9 @@ $(".feature_slider").slick({
   slidesToScroll: 1,
   responsive: [
     {
-      breakpoint: 1400,
+      breakpoint: 1399,
       settings: {
-        slidesToShow: 2,
+        slidesToShow: 4,
         slidesToScroll: 1,
       },
     },
