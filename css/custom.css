@@ -2759,7 +2759,27 @@ section#register input.border_button_form {
 	color: var(--white);
 	font-size: 1rem;
 }
+.facebook_bg {
+    background-color: #3B5998;
+}
+.twitter_bg {
+    background-color: #00AEEF;
+}
+.google_bg {
+    background-color: #D44638;
+}
+.linkedin_bg {
+    background-color: #0E76A8;
+}
 
+.register_button {
+    width: 50px;
+    height: 50px;
+    line-height: 57px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
 /*=============================================== REGISTER PAGE END  */
 
 /*=============================================== ORDER STATUS PAGE START  */
