@@ -42,7 +42,7 @@ $(document).ready(function () {
 $(".slick_slider").slick({
   dots: false,
   arrows: true,
-  autoplay: false,
+  autoplay: true,
   autoplaySpeed: 3000,
   slidesToShow: 5,
   slidesToScroll: 1,
