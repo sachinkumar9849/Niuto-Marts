@@ -18,19 +18,23 @@
         font-size: 16px;
        
       }
+      body{
+        overflow-x: hidden;
+      }
 
 /*======================== COMMON CSS START ===========*/
 .padding , .padding_top {
   padding: 3rem 0;
 }
-/* .padding_top {
-  padding-top: 3rem;
-} */
+.cart_imgss img {
+  /* max-height: 83px; */
+  padding-left: 0rem;
+}
 /*======================== COMMON CSS END=========== */
     /* HEADER START  */
-    header.section-header{
+    /* header.section-header{
       display: none;
-    }
+    } */
     button.navbar-toggler {
       display: none;
   }
@@ -52,11 +56,39 @@ a.search_mobile i.fas.fa-search {
 a.wishlist_mobile,.dropdown.user_login_mobile,a.cart_mobile {
     display: none;
 }
-a.search_mobile {
-    position: absolute;
-    right: 153px;
-    top: 32px;
+.search_web{
+  display: none;
 }
+
+
+header.section-header {
+
+  height: 0;
+  padding: 0;
+}
+a.search_mobile {
+  position: absolute;
+  right: 95px;
+  top: 30px;
+}
+div#searchpopupmodal {
+  
+  background: var(--white);
+}
+div#searchpopupmodal .modal-footer.my-auto.border-0.w-100 {
+  
+  background: var(--white);
+}
+a.search_mobile i.fas.fa-search {
+  color: var(--black);
+  z-index: 9;
+  position: relative;
+  font-size: 17px;
+}
+
+
+
+
 .mobile-menu {
     right: 0;
     top: 25px;
@@ -479,3 +511,25 @@ section#product_tab form {
 /*=============================================== PRODUCT DETAIL PAGE END  */
 
 }
+/* @media (min-width: 1199px) {
+#sub_body{
+  background: var(--section_bg);
+}
+footer#footer .container{
+  transform: translateY(65%);
+
+} 
+footer#footer {
+	height: 550px;
+	-webkit-mask: radial-gradient(var(--r1, 100%) var(--r2, 50%) at bottom, white 79.5%, transparent 80%) bottom right, radial-gradient(var(--r1, 100%) var(--r2, 50%) at top, transparent 79.5%, white 80%) bottom center, radial-gradient(var(--r1, 100%) var(--r2, 50%) at bottom, white 79.5%, transparent 80%) bottom left;
+
+	
+	-webkit-mask-size: 33.4% 150%;
+	-webkit-mask-repeat: no-repeat;
+	mask-size: 33.4% 150%;
+	mask-repeat: no-repeat;
+}
+section#facilities {
+  padding-bottom: 2.5rem;
+}
+} */
