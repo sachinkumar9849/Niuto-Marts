@@ -543,4 +543,14 @@ section#facilities {
   .discounted_section .content_block h4 {
     font-size: 1.2rem;
 }
+section#facilities .content-block {
+  width: 94%;
+  
+}
+li.nav-item {
+  padding-left: 32px;
+}
+.header-sticky.sticky-bar .nav-item {
+  padding-left: 32px;
+}
  }

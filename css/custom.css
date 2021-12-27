@@ -2565,11 +2565,12 @@ section#blog-page .tag-blog {
 section#blog-page .tag-blog ul.list {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: space-between;
 }
 section#blog-page .tag-blog li {
 	background: white;
 	margin-bottom: 10px;
-	width: 29%;
+	width: 30%;
 	border: 1px solid;
 	border: 1px solid #eeeeee;
 }
@@ -2719,7 +2720,9 @@ section#blog-page .button.button-contactForm {
 	transition: 0.5s;
 }
 section#blog-page .button.button-contactForm:hover {
-	background-color: #1e5698;
+	background-color: transparent;
+	color: var(--blue);
+	border: 1px solid;
 }
 
 /* .blog-content {
