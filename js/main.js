@@ -65,7 +65,7 @@ $(".slick_slider").slick({
     {
       breakpoint: 780,
       settings: {
-        slidesToShow: 5,
+        slidesToShow: 3,
         slidesToScroll: 1,
       },
     },
@@ -104,7 +104,7 @@ $(".category_list").slick({
     {
       breakpoint: 780,
       settings: {
-        slidesToShow: 2,
+        slidesToShow: 3,
         slidesToScroll: 1,
       },
     },
@@ -143,7 +143,7 @@ $(".feature_slider").slick({
     {
       breakpoint: 780,
       settings: {
-        slidesToShow: 2,
+        slidesToShow: 3,
         slidesToScroll: 1,
       },
     },
