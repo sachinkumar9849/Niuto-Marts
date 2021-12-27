@@ -511,8 +511,8 @@ section#product_tab form {
 /*=============================================== PRODUCT DETAIL PAGE END  */
 
 }
-/* @media (min-width: 1199px) {
-#sub_body{
+@media (min-width: 1199px) {
+/* #sub_body{
   background: var(--section_bg);
 }
 footer#footer .container{
@@ -531,5 +531,16 @@ footer#footer {
 }
 section#facilities {
   padding-bottom: 2.5rem;
-}
 } */
+
+}
+@media (min-width: 768px) and (max-width: 1199.98px) {
+  .discounted_section .img_block img {
+    max-height: 14rem;
+    min-height: 14rem;
+    object-fit: fill;
+  }
+  .discounted_section .content_block h4 {
+    font-size: 1.2rem;
+}
+ }

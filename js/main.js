@@ -44,7 +44,7 @@ $(document).ready(function () {
 $(".slick_slider").slick({
   dots: false,
   arrows: true,
-  autoplay: true,
+  autoplay: false,
   autoplaySpeed: 3000,
   slidesToShow: 5,
   slidesToScroll: 1,
@@ -52,21 +52,21 @@ $(".slick_slider").slick({
   responsive: [{
     breakpoint: 1400,
     settings: {
-        slidesToShow: 2,
+        slidesToShow: 5,
         slidesToScroll: 1
     }
 },
 {
     breakpoint: 1080,
     settings: {
-        slidesToShow: 2,
+        slidesToShow: 4,
         slidesToScroll: 1
     }
 },
 {
     breakpoint: 780,
     settings: {
-        slidesToShow: 2,
+        slidesToShow: 5,
         slidesToScroll: 1
     }
 },
@@ -99,7 +99,7 @@ $(".category_list").slick({
 {
     breakpoint: 1080,
     settings: {
-        slidesToShow: 2,
+        slidesToShow: 4,
         slidesToScroll: 1
     }
 },
@@ -139,7 +139,7 @@ $(".feature_slider").slick({
 {
     breakpoint: 1080,
     settings: {
-        slidesToShow: 2,
+        slidesToShow: 4,
         slidesToScroll: 1
     }
 },

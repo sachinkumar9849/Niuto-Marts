@@ -421,7 +421,7 @@ header {
 }
 
 .header-sticky.sticky-bar ul.navbar-nav a.nav-link {
-	padding: 0;
+	/* padding: 0; */
 	color: var(--black);
 	font-weight: 600;
 }
@@ -437,7 +437,7 @@ header {
 }
 
 .header-sticky.sticky-bar .nav-item {
-	padding: 0;
+	padding-left: 47px;
 }
 
 .header-sticky.sticky-bar {
@@ -494,7 +494,7 @@ nav.navbar a.nav-link:hover {
 
 li.nav-item {
 	text-align: center;
-	width: 15.5rem;
+	/* width: 15.5rem; */
 	transition: 0.5s;
 }
 
@@ -510,7 +510,7 @@ li.nav-item {
 li.nav-item {
 	height: 43px;
 	text-align: center;
-	width: 7.3rem;
+	padding-left: 47px;
 	transition: 0.5s;
 	line-height: 43px;
 }
@@ -741,7 +741,7 @@ a.drop_arrow::after {
 	position: absolute;
 	color: var(--black);
 	top: -2px;
-	right: 0%;
+	right: -8%;
 	transform: rotate(179deg);
 }
 
