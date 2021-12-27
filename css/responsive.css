@@ -219,6 +219,10 @@ li.nav-item {
 /* HEADER END  */
 
 /*================================= INDEX START ==========  */
+.our_brand-2.pt-3.slick-initialized.slick-slider {
+  overflow: hidden;
+  height: 7rem;
+}
 .slider_item img {
   height: 15rem;
 }
@@ -516,6 +520,7 @@ section#product_tab form {
   text-align: center;
  
 }
+
 }
 @media (min-width: 1199px) {
 /* #sub_body{
@@ -559,4 +564,5 @@ li.nav-item {
 .header-sticky.sticky-bar .nav-item {
   padding-left: 32px;
 }
+
  }

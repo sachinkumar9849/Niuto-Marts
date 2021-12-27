@@ -178,9 +178,6 @@ div#table_content .qty {
 textarea#comment {
     border: 1px solid #f0e9ff;
     border-radius: 5px;
-    /* height: 48px; */
-    /* padding-left: 18px; */
-    /* font-size: 13px; */
     background: transparent;
 }
 .pagination {
@@ -1495,7 +1492,9 @@ footer#footer .button-footer .footer-btn {
 
 
 /*================================================= PRODUCT PAGE START  ====================*/
-
+.our_brand.pt-3.slick-initialized.slick-slider{
+	overflow: hidden;
+}
 .slider.slider-horizontal {
 	height: 20px;
 	width: 80%;
